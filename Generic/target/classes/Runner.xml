@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Android test suite for TD">
+
+    <parameter name="OS" value="ios"/>
+    <parameter name="deviceType" value="Simulator"/>
+    <parameter name="deviceName" value="iPhone 8 Plus"/>
+    <parameter name="version" value="12.2"/>
+
+
+    <test name="Home page" preserve-order="true">
+        <classes>
+            <class name=""/>
+        </classes>
+    </test>
+</suite>
